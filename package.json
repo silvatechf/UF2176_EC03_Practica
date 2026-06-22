@@ -1,0 +1,26 @@
+{
+  "name": "academia",
+  "version": "1.0.0",
+  "description": "GET    /api/profesores GET    /api/profesores/1 POST   /api/profesores PUT    /api/profesores/1 DELETE /api/profesores/1 # Alumnos GET    /api/alumnos POST   /api/alumnos # Cursos GET    /api/cursos POST   /api/cursos # Especialidades GET /api/especialidades # Matrículas GET  /api/matriculas POST /api/matriculas # Ejemplo POST Profesor {   \"nombre\": \"Pedro García\",   \"edad\": 40,   \"especialidad_id\": 3 } # Ejemplo POST Alumno {   \"nombre\": \"María Pérez\",   \"email\": \"maria@gmail.com\" } # Ejemplo POST Matrícula {   \"alumno_id\": 1,   \"curso_id\": 3,   \"fecha_matricula\": \"2025-12-10\" }",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
