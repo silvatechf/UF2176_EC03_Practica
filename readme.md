@@ -57,4 +57,3 @@ node app.js
 
 ---
 
-Este documento ayudará a cualquier evaluador a entender rápidamente cómo desplegar y probar tu solución. ¿Necesitas añadir alguna sección extra o prefieres que lo traduzca a otro idioma?
