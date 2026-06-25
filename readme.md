@@ -1,5 +1,3 @@
-Aquí tienes un `README.md` profesional, conciso y directo, redactado en español, ideal para tu proyecto académico:
-
 ---
 
 # Academia API
